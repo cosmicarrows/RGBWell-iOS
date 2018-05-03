@@ -12,6 +12,8 @@
 		26F0539D209B7435000AAD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0539B209B7435000AAD0E /* Main.storyboard */; };
 		26F0539F209B7437000AAD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F0539E209B7437000AAD0E /* Assets.xcassets */; };
 		26F053A2209B7437000AAD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F053A0209B7437000AAD0E /* LaunchScreen.storyboard */; };
+		26F053AA209B7470000AAD0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F053A9209B7470000AAD0E /* MainViewController.swift */; };
+		26F053AC209B748F000AAD0E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F053AB209B748F000AAD0E /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		26F0539E209B7437000AAD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F053A1209B7437000AAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F053A3209B7437000AAD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F053A9209B7470000AAD0E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		26F053AB209B748F000AAD0E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				26F0539E209B7437000AAD0E /* Assets.xcassets */,
 				26F053A0209B7437000AAD0E /* LaunchScreen.storyboard */,
 				26F053A3209B7437000AAD0E /* Info.plist */,
+				26F053A9209B7470000AAD0E /* MainViewController.swift */,
+				26F053AB209B748F000AAD0E /* MainViewController.xib */,
 			);
 			path = "RGBWell iOS";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				26F053A2209B7437000AAD0E /* LaunchScreen.storyboard in Resources */,
 				26F0539F209B7437000AAD0E /* Assets.xcassets in Resources */,
 				26F0539D209B7435000AAD0E /* Main.storyboard in Resources */,
+				26F053AC209B748F000AAD0E /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F053AA209B7470000AAD0E /* MainViewController.swift in Sources */,
 				26F0539A209B7435000AAD0E /* ViewController.swift in Sources */,
 				26F05398209B7435000AAD0E /* AppDelegate.swift in Sources */,
 			);

@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var mainViewController: MainViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //so as this function fires we need to put forth some effort.....from inside this function instantiate a view controller
+        let mainViewController = MainViewController()
+        
+        //put the view of the ViewController on screen
+        mainViewController.show(mainViewController, sender: self)
+        
+        //set the property to point to the viewController
+        self.mainViewController = mainViewController
+        
+        
         return true
     }
 
