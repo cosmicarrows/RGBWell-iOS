@@ -22,8 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainViewController = MainViewController()
         
         //put the view of the ViewController on screen
-        mainViewController.show(mainViewController, sender: self)
+        //mainViewController.show(mainViewController, sender: self)
         
+        window?.backgroundColor = UIColor.purple
+    
+        
+        window?.rootViewController = mainViewController
+        
+                
         //set the property to point to the viewController
         self.mainViewController = mainViewController
         

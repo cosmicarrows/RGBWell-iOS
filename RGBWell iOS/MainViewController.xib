@@ -12,18 +12,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="RGBWell_iOS" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="lfq-gU-avW" id="R7o-GL-aZx"/>
+                <outlet property="view" destination="wgY-w5-uuC" id="B2Q-rf-7xa"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <viewController id="dJx-VW-CRh" customClass="MainViewController" customModule="RGBWell_iOS" customModuleProvider="target">
-            <view key="view" contentMode="scaleToFill" id="lfq-gU-avW">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <color key="backgroundColor" red="1" green="0.23601167259121414" blue="0.29457490533355468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                <viewLayoutGuide key="safeArea" id="yHw-UJ-2CV"/>
-            </view>
-            <point key="canvasLocation" x="571" y="-488"/>
-        </viewController>
+        <view contentMode="scaleToFill" id="wgY-w5-uuC">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.60318021740423755" green="0.9246735573767435" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="Btq-Bf-Q5P"/>
+            <point key="canvasLocation" x="545" y="-705"/>
+        </view>
     </objects>
 </document>
