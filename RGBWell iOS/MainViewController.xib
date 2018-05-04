@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="RGBWell_iOS" customModuleProvider="target">
             <connections>
+                <outlet property="calculatedLabel" destination="5IB-Zf-MTS" id="ESl-Lg-vOO"/>
                 <outlet property="view" destination="wgY-w5-uuC" id="B2Q-rf-7xa"/>
             </connections>
         </placeholder>
@@ -70,10 +71,24 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IB-Zf-MTS">
+                    <rect key="frame" x="16" y="462" width="343" height="114"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="-">
+                            <attributes>
+                                <color key="NSColor" red="1" green="0.0060705861862845323" blue="0.95294036167626706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="50" name=".SFNSDisplay"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.60318021740423755" green="0.9246735573767435" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="Btq-Bf-Q5P"/>
-            <point key="canvasLocation" x="545" y="-705"/>
+            <point key="canvasLocation" x="544.5" y="-705.5"/>
         </view>
     </objects>
 </document>
