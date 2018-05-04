@@ -19,4 +19,12 @@ class MainViewController: UIViewController {
         print("R slider's value is \(sender.value)")
     }
     
+    @IBAction func adjustGreen(sender: UISlider) {
+        print("G slider's value is \(sender.value)")
+    }
+    
+    @IBAction func adjustBlue(sender: UISlider) {
+        print("B slider's value is \(sender.value)")
+    }
+    
 }

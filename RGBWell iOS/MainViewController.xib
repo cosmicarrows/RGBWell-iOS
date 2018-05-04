@@ -23,9 +23,48 @@
                 <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Qp-Io-7oy">
                     <rect key="frame" x="128" y="47" width="118" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="minimumTrackTintColor" red="0.79641614000000005" green="0.0011160302569999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="thumbTintColor" red="0.79641613998128702" green="0.0011160302573034464" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="adjustRedWithSender:" destination="-1" eventType="valueChanged" id="y9s-QL-YzQ"/>
+                    </connections>
                 </slider>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfA-Td-Wby">
                     <rect key="frame" x="84" y="51" width="11" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8BW-4W-ZiI">
+                    <rect key="frame" x="128" y="163" width="118" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="minimumTrackTintColor" red="0.79641614000000005" green="0.0011160302569999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="thumbTintColor" red="0.79641614000000005" green="0.0011160302569999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="adjustGreenWithSender:" destination="-1" eventType="valueChanged" id="cQX-3f-MDj"/>
+                        <action selector="adjustRedWithSender:" destination="-1" eventType="valueChanged" id="7ry-Ig-6J9"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="G" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eo-hP-yyd">
+                    <rect key="frame" x="84" y="167" width="13" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="f5W-WX-baR">
+                    <rect key="frame" x="128" y="303" width="118" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="minimumTrackTintColor" red="0.79641614000000005" green="0.0011160302569999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="thumbTintColor" red="0.79641614000000005" green="0.0011160302569999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="adjustBlueWithSender:" destination="-1" eventType="valueChanged" id="c3q-zq-1f5"/>
+                        <action selector="adjustRedWithSender:" destination="-1" eventType="valueChanged" id="deg-SK-dde"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1Y-4u-wWP">
+                    <rect key="frame" x="84" y="307" width="11" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
