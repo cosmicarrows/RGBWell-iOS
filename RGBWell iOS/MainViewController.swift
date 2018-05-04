@@ -15,4 +15,8 @@ class MainViewController: UIViewController {
         return "MainViewController"
     }
     
+    @IBAction func adjustRed(sender: UISlider) {
+        print("R slider's value is \(sender.value)")
+    }
+    
 }
